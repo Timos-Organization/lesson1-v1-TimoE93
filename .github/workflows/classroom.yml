@@ -6,6 +6,8 @@ permissions:
   checks: write
   actions: read
   contents: read
+branches:
+  - main
 jobs:
   run-autograding-tests:
     runs-on: ubuntu-latest
